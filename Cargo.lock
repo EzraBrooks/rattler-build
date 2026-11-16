@@ -4924,7 +4924,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_core"
-version = "0.2.26"
+version = "0.2.27"
 dependencies = [
  "anyhow",
  "arwen-codesign",
@@ -5023,7 +5023,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_jinja"
-version = "0.1.26"
+version = "0.1.27"
 dependencies = [
  "anyhow",
  "fs-err",
@@ -5047,7 +5047,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_networking"
-version = "0.1.22"
+version = "0.1.23"
 dependencies = [
  "astral-reqwest-middleware",
  "astral-reqwest-retry",
@@ -5059,7 +5059,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_package"
-version = "0.1.27"
+version = "0.1.28"
 dependencies = [
  "content_inspector",
  "fs-err",
@@ -5090,7 +5090,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_recipe"
-version = "0.1.26"
+version = "0.1.27"
 dependencies = [
  "clap",
  "fs-err",
@@ -5126,7 +5126,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_recipe_generator"
-version = "0.1.24"
+version = "0.1.25"
 dependencies = [
  "async-once-cell",
  "async-recursion",
@@ -5159,7 +5159,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_script"
-version = "0.2.21"
+version = "0.2.22"
 dependencies = [
  "async-trait",
  "clap",
@@ -5186,7 +5186,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_source_cache"
-version = "0.1.24"
+version = "0.1.25"
 dependencies = [
  "astral-reqwest-middleware",
  "astral-reqwest-retry",
@@ -5226,7 +5226,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_types"
-version = "0.1.24"
+version = "0.1.25"
 dependencies = [
  "fs-err",
  "globset",
@@ -5242,7 +5242,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_variant_config"
-version = "0.1.26"
+version = "0.1.27"
 dependencies = [
  "fs-err",
  "insta",
@@ -5264,7 +5264,7 @@ dependencies = [
 
 [[package]]
 name = "rattler_build_yaml_parser"
-version = "0.1.26"
+version = "0.1.27"
 dependencies = [
  "insta",
  "marked-yaml",
@@ -7473,9 +7473,9 @@ dependencies = [
 
 [[package]]
 name = "sysinfo"
-version = "0.40.3"
+version = "0.40.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a86bac2f7d06e6384984118ad727f5694110f0ec44d924d05c8fdec3d030bee6"
+checksum = "3e80749408e2d8bec0ffa303012cf4e1b3b355f4a09087b4fdf7473680f6a2de"
 dependencies = [
  "libc",
  "memchr",
